@@ -27,7 +27,7 @@ To disable CFG Lock you can either use a quirk in OpenCore or disable it properl
 
 While we're here we can also optimise the Intel HD4x00 Framebuffer by setting the DVMT pre-alloc to 64MB, which macOS likes. This is not really needed but recommended. Execute *"setup_var 0x263 0x2"* to change it. By default it's set to 0x1 which is 32MB.
 
-Note: Resetting NVRAM or loading BIOS defautls does ***not*** clear these changes. The motherboard jumper may clear them, I have yet to test that. Double check you're entering the right values and nothing could go wrong really.
+Note: Resetting NVRAM or loading BIOS defaults does ***not*** clear these changes. The motherboard jumper may clear them, I have yet to test that. Double check you're entering the right values and nothing could go wrong really.
 
 Credit for above goes to @JimLee1996 and his nice [write up](https://github.com/JimLee1996/Hackintosh_OptiPlex_9020) on this subject.
 
@@ -35,18 +35,18 @@ If you haven't already, [download](https://github.com/corpnewt/gibMacOS) and [cr
 
 Download [EFI Agent](https://github.com/headkaze/EFI-Agent/releases) and use it to easily mount the EFI partition of the installer and copy the EFI found in this repository to it. You're now ready to install macOS. Once installed mount the EFI partition of your internal disk and once again copy the EFI folder found here to it. 
 
-Before rebooting from the internal disk there are a few more very important steps, one is to generate a SSDT file that matches your CPU. To do so run the followling command:
+Before rebooting from the internal disk there are a few more very important steps, one is to generate a SSDT file that matches your CPU. To do so run the following command:
 *"curl -o ./ssdtPRGen.sh https://raw.githubusercontent.com/Piker-Alpha/ssdtPRGen.sh/Beta/ssdtPRGen.sh && chmod +x ./ssdtPRGen.sh && ./ssdtPRGen.sh"*
 
 Choose *no* when asked to save the dsl file unless you want it. With the EFI folder on the internal disk still mounted copy the new SSDT and replace the old one by running: *"cp ~/Library/ssdtPRGen/ssdt.aml /Volumes/EFI/OC/ACPI/SSDT.aml"*. Once copied it is safe to remove the crud left behind by the script. Issue "*rm -rf ~/Library/ssdtPRGen"* to get rid of it.
 
 Another important step is to enable TRIM support. Close all open apps, open a terminal and execute *"sudo trimforce enable"*. Enter yes for both questions and once rebooted TRIM should be enabled.
 
-Please also download [Hackintool](https://github.com/headkaze/Hackintool/releases) as you will need to fix stuff liek sleep image, verify settings and lots of other things and also easily find updates for kexts and OpenCore itself.
+Please also download [Hackintool](https://github.com/headkaze/Hackintool/releases) as you will need to fix stuff like sleep image, verify settings and lots of other things and also easily find updates for kexts and OpenCore itself.
 
 Reboot and you should be running macOS on your ~~OptiPlex~~ OptiMac!
 
-Have fun!
+Have fun, and remember to **not** support Tonycrap and their closed source software that contains stolen goods. Not to mention them adding referrals when you post links to Amazon for example. Making money should not be part of the hackintosh community.
 
 Tip: To make ProperTree into a little app, double click on the *buildapp.command* file inside the script folder. The resulting app will be put in the main ProperTree folder. 
 
