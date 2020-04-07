@@ -38,7 +38,7 @@ Choose *no* when asked to save the dsl file unless you want it. With the EFI fol
 
 Please also download [Hackintool](https://github.com/headkaze/Hackintool/releases) as you will need to fix sleep image, verify settings and lots of other stuff and also easily find updates for kexts and OpenCore itself.
 
-Reboot and you should be running macOS on your ~~~OptiPlex~~~ OptiMac!
+Reboot and you should be running macOS on your ~~OptiPlex~~ OptiMac!
 
 Have fun!
 
