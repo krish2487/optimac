@@ -1,7 +1,7 @@
 # OptiMac
 My hackintosh stuff for Dell Optiplex 7020/9020
 
-This is not a complete guide, but those who have made hackintoshes before this could be handy guide. Though for most the EFI folder itself should be enough to get going. I also suck at writing these kind of things. But I do like sharing.
+This is not a complete guide, but those who have made hackintoshes before this could be handy. Though for most the EFI folder itself should be enough to get going. I also suck at writing these kind of things. But I do like sharing.
 
 Please only use this for clean installs, or updating an existing OpenCore install. I replaced my Clover at first and the system wasn't as fast as when I tried a clean install to test my EFI folder before using it on other 7020/9020 boxes. The difference was quite noticeable. So only do a clean install if you're coming from Clover and just import your user data/apps once installed. This will ensure maximum performance.
 
