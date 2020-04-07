@@ -46,4 +46,10 @@ Reboot and you should be running macOS on your ~~OptiPlex~~ OptiMac!
 
 Have fun!
 
+Tip: To make ProperTree into a little app, double click on the *buildapp.command* file inside the script folder. The resulting app will be put in the main ProperTree folder. 
+
 PS: I'll be updating this file more often than is healthy so please ignore all the silly commits, lol.
+
+Post install downloads:
+https://github.com/pqrs-org/Karabiner-Elements/releases
+https://titanium-software.fr/en/onyx.html
