@@ -23,7 +23,7 @@ Optionally but highly recommended is to change the *PlatformInfo -> Generic -> S
 
 Please use [ProperTree](https://github.com/corpnewt/ProperTree) to edit the OpenCore config.
 
-To disable CFG Lock you can either use a quirk in OpenCore or disable it properly. Luckily we can can disable it. Refer to [this](https://khronokernel-2.gitbook.io/opencore-vanilla-desktop-guide/post-install/post-install/msr-lock) guide on how to get everything ready. The magic number for the A18 BIOS is: 0xDA2. Executing *"setup_var 0xDA2 0x0"* will disable CFG Lock. Revert it simply execute the command again but replace 0x0 with 0x1.
+To disable CFG Lock you can either use a quirk in OpenCore or disable it properly. Luckily we can can disable it. Refer to [this](https://khronokernel-2.gitbook.io/opencore-vanilla-desktop-guide/post-install/post-install/msr-lock) guide on how to get everything ready. The magic number for the A18 BIOS is: 0xDA2. Executing *"setup_var 0xDA2 0x0"* will disable CFG Lock. To revert simply execute the command again but replace 0x0 with 0x1.
 
 While we're here we can also optimise the Intel HD4x00 Framebuffer by setting the DVMT pre-alloc to 64MB, which macOS likes. This is not really needed but recommended. Execute *"setup_var 0x263 0x2"* to change it. By default it's set to 0x1 which is 32MB.
 
@@ -42,7 +42,7 @@ Choose *no* when asked to save the dsl file unless you want it. With the EFI fol
 
 Another important step is to enable TRIM support. Close all open apps, open a terminal and execute *"sudo trimforce enable"*. Enter yes for both questions and once rebooted TRIM should be enabled.
 
-Please also download [Hackintool](https://github.com/headkaze/Hackintool/releases) as you will need to fix sleep image, verify settings and lots of other stuff and also easily find updates for kexts and OpenCore itself.
+Please also download [Hackintool](https://github.com/headkaze/Hackintool/releases) as you will need to fix stuff liek sleep image, verify settings and lots of other things and also easily find updates for kexts and OpenCore itself.
 
 Reboot and you should be running macOS on your ~~OptiPlex~~ OptiMac!
 
