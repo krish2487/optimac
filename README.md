@@ -27,6 +27,8 @@ To disable CFG Lock you can either use a quirk in OpenCore or disable it properl
 
 While we're here we can also optimise the Intel HD4x00 Framebuffer by setting the DVMT pre-alloc to 64MB, which macOS likes. This is not really needed but recommended. Execute *"setup_var 0x263 0x2"* to change it. By default it's set to 0x1 which is 32MB.
 
+Note: Resetting NVRAM or loading BIOS defautls does ***not*** clear these changes. The motherboard jumper may clear them, I have yet to test that. Double check you're entering the right values and nothing could go wrong really.
+
 Credit for above goes to @JimLee1996 and his nice [write up](https://github.com/JimLee1996/Hackintosh_OptiPlex_9020) on this subject.
 
 If you haven't already, [download](https://github.com/corpnewt/gibMacOS) and [create the install media](https://support.apple.com/sl-si/HT201372). If you don't have a working macOS system yet you can still create an installer by running gibMacOS's Makeinstall.bat as administrator on Windows.
@@ -53,3 +55,12 @@ PS: I'll be updating this file more often than is healthy so please ignore all t
 Post install downloads:
 https://github.com/pqrs-org/Karabiner-Elements/releases
 https://titanium-software.fr/en/onyx.html
+https://software.intel.com/en-us/articles/intel-power-gadget/
+
+TODO:
+- Add disabling of MEBx and also howto add KVM to MEBx. It's cool to have.
+- Cleaner USB config, ideally not using FakePCIID but for now it works flawlessy with FakePCIID.
+- FileVault2 testing, the config is ready for it.
+- Enable TRIM with a patch in the config cuz I always forget to run *trimforce*.
+- Wifi, I haven't received my Broadcom wifi/BT combo card yet.
+- Bluetooth, currently using a [$2 BT 4.0 dongle](https://www.ebay.co.uk/itm/1PCS-Mini-USB-Bluetooth-V4-0-3Mbps-20M-Dongle-Dual-Mode-Wireless-Adapter-Device/324106977844) that surprisingly works out of the box. No handoff or other fancy features are supported but audio and mouse/keyboard work fine.
