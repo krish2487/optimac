@@ -64,6 +64,7 @@ Load whilst running Geekbench 4. My i5-4570S scores an average around ~4100 sing
 ![Load whilst running Geekbench 4](https://github.com/zearp/optimac/blob/master/gb.png)
 
 Some post install downloads:
+
 https://github.com/pqrs-org/Karabiner-Elements/releases
 
 https://titanium-software.fr/en/onyx.html
