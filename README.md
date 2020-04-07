@@ -33,10 +33,12 @@ If you haven't already, [download](https://github.com/corpnewt/gibMacOS) and [cr
 
 Download [EFI Agent](https://github.com/headkaze/EFI-Agent/releases) and use it to easily mount the EFI partition of the installer and copy the EFI found in this repository to it. You're now ready to install macOS. Once installed mount the EFI partition of your internal disk and once again copy the EFI folder found here to it. 
 
-Before rebooting from the internal disk there is one more very important step is to generate a SSDT file that matches your CPU. To do so run the followling command:
+Before rebooting from the internal disk there are a few more very important steps, one is to generate a SSDT file that matches your CPU. To do so run the followling command:
 *"curl -o ./ssdtPRGen.sh https://raw.githubusercontent.com/Piker-Alpha/ssdtPRGen.sh/Beta/ssdtPRGen.sh && chmod +x ./ssdtPRGen.sh && ./ssdtPRGen.sh"*
 
 Choose *no* when asked to save the dsl file unless you want it. With the EFI folder on the internal disk still mounted copy the new SSDT and replace the old one by running: *"cp ~/Library/ssdtPRGen/ssdt.aml /Volumes/EFI/OC/ACPI/SSDT.aml"*. Once copied it is safe to remove the crud left behind by the script. Issue "*rm -rf ~/Library/ssdtPRGen"* to get rid of it.
+
+Another important step is to enable TRIM support. Close all open apps, open a terminal and execute *"sudo trimforce enable"*. Enter yes for both questions and once rebooted TRIM should be enabled.
 
 Please also download [Hackintool](https://github.com/headkaze/Hackintool/releases) as you will need to fix sleep image, verify settings and lots of other stuff and also easily find updates for kexts and OpenCore itself.
 
