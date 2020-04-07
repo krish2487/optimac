@@ -79,3 +79,5 @@ Average system cost around $99, for performance on par with a 2018 Mac Mini.
 $70 Optiplex 7020/9020 i5 and 4-16GB RAM and a disk you shouldn't use due to wear. Don't overpay, there is a lot of supply.
 
 $29 for a decent brand new 120-250GB entry level SSD. Hunt for bargains on Amazon and the likes.
+
+Don't forget to replace the thermal paste!
