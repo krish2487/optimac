@@ -29,7 +29,7 @@ While we're here we can also optimise the Intel HD4x00 Framebuffer by setting th
 
 Credit for above goes to @JimLee1996 and his nice [write up](https://github.com/JimLee1996/Hackintosh_OptiPlex_9020) on this subject.
 
-If you haven't already, [download](https://github.com/corpnewt/gibMacOS) and [create the install media](https://support.apple.com/sl-si/HT201372). If you don't have a working macOS system yet you can still create an installer but you would need to [DuckDuckGo](https://duckduckgo.com/?q=create+macOS+installer+windows&ia=web) that as I'm not familiar with the process. I'm assuming you have a working macOS install.
+If you haven't already, [download](https://github.com/corpnewt/gibMacOS) and [create the install media](https://support.apple.com/sl-si/HT201372). If you don't have a working macOS system yet you can still create an installer by running gibMacOS's Makeinstall.bat as administrator on Windows.
 
 Download [EFI Agent](https://github.com/headkaze/EFI-Agent/releases) and use it to easily mount the EFI partition of the installer and copy the EFI found in this repository to it. You're now ready to install macOS. Once installed mount the EFI partition of your internal disk and once again copy the EFI folder found here to it. 
 
