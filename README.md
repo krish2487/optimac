@@ -53,7 +53,7 @@ Tip: To make ProperTree into a little app, double click on the *buildapp.command
 PS: I'll be updating this file more often than is healthy so please ignore all the silly commits, lol.
 
 TODO:
-- Add disabling of MEBx and also howto add KVM to MEBx. It's cool to have.
+- Add disabling of MEBx and also [howto add KVM to MEBx](https://www.win-raid.com/t5079f39-Dell-is-there-a-chance-to-activate-AMT-for-KVM-remote-control.html). It's cool to have.
 - Cleaner USB config, ideally not using FakePCIID but for now it works flawlessy with FakePCIID.
 - FileVault2 testing, the config is ready for it.
 - Enable TRIM with a patch in the config cuz I always forget to run *trimforce*.
