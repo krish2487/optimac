@@ -52,11 +52,6 @@ Tip: To make ProperTree into a little app, double click on the *buildapp.command
 
 PS: I'll be updating this file more often than is healthy so please ignore all the silly commits, lol.
 
-Post install downloads:
-https://github.com/pqrs-org/Karabiner-Elements/releases
-https://titanium-software.fr/en/onyx.html
-https://software.intel.com/en-us/articles/intel-power-gadget/
-
 TODO:
 - Add disabling of MEBx and also howto add KVM to MEBx. It's cool to have.
 - Cleaner USB config, ideally not using FakePCIID but for now it works flawlessy with FakePCIID.
@@ -67,3 +62,10 @@ TODO:
 
 Load whilst running Geekbench 4. My i5-4570S scores an average around ~4100 single core and ~11750 multi core.
 ![Load whilst running Geekbench 4](https://github.com/zearp/optimac/blob/master/gb.png)
+
+Some post install downloads:
+https://github.com/pqrs-org/Karabiner-Elements/releases
+
+https://titanium-software.fr/en/onyx.html
+
+https://software.intel.com/en-us/articles/intel-power-gadget/
