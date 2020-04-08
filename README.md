@@ -62,6 +62,7 @@ TODO:
 - Wifi, I haven't received my Broadcom wifi/BT combo card yet.
 - Bluetooth, currently using a [$2 BT 4.0 dongle](https://www.ebay.co.uk/itm/1PCS-Mini-USB-Bluetooth-V4-0-3Mbps-20M-Dongle-Dual-Mode-Wireless-Adapter-Device/324106977844) that surprisingly works out of the box. No handoff or other fancy features are supported but audio and mouse/keyboard work fine.
 - Audio over DisplayPort is only working for the slot closest to the PS/2 ports. Would be nice if it works on both.
+- Make graphical picker default once it's more polished by setting *PickerMode* to External.
 
 Load whilst running Geekbench 4. My i5-4570S scores an average around ~4100 single core and ~11750 multi core. Compute score around ~15775.
 
