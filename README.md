@@ -31,7 +31,7 @@ While we're here we can also optimise the Intel HD4x00 Framebuffer by setting th
 
 Note: Resetting NVRAM or loading BIOS defaults does ***not*** clear these changes. The motherboard jumper may clear them, I have yet to test that. Double check you're entering the right values and nothing could go wrong really.
 
-Credit for above goes to @JimLee1996 and his nice [write up](https://github.com/JimLee1996/Hackintosh_OptiPlex_9020) on this subject.
+Credit for above goes to @JimLee1996 and his nice [write up](https://github.com/JimLee1996/Hackintosh_OptiPlex_9020) on this subject. The VRAM size is currently set to 2GB in the config, unlike the sceenshot. If you want to go to back to 1.5GB just remove the *ramebuffer-unifiedmem* key from the config.
 
 If you haven't already, [download](https://github.com/corpnewt/gibMacOS) and [create the install media](https://support.apple.com/sl-si/HT201372). If you don't have a working macOS system yet you can still create an installer by running gibMacOS's Makeinstall.bat as administrator on Windows.
 
