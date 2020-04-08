@@ -77,6 +77,8 @@ https://titanium-software.fr/en/onyx.html
 
 https://software.intel.com/en-us/articles/intel-power-gadget/
 
+https://rudix.org
+
 Average system cost around $99, for performance on par with a 2018 Mac Mini.
 
 $70 Optiplex 7020/9020 with i5/i7 and 4-16GB RAM and a disk you shouldn't use due to wear.
