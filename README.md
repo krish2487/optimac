@@ -77,6 +77,8 @@ https://titanium-software.fr/en/onyx.html
 
 https://software.intel.com/en-us/articles/intel-power-gadget/
 
+https://brew.sh
+
 https://rudix.org
 
 Average system cost around $99, for performance on par with a 2018 Mac Mini.
