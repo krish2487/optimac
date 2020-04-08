@@ -271,6 +271,9 @@
 				<data>AQAAAA==</data>
 			</dict>
 		</dict>
+		<key>Block</key>
+		<dict/>
+	</dict>
 	<key>Kernel</key>
 	<dict>
 		<key>Add</key>
@@ -475,7 +478,7 @@
 			<key>HibernateMode</key>
 			<string>None</string>
 			<key>PickerMode</key>
-			<string>Builtin</string>
+			<string>Default</string>
 			<key>HideAuxiliary</key>
 			<false/>
 			<key>HideSelf</key>
@@ -654,6 +657,8 @@
 			<string>ApfsDriverLoader.efi</string>
 			<string>AudioDxe.efi</string>
 			<string>OpenRuntime.efi</string>
+			<string>OpenCanopy.efi</string>
+			<string>ExFatDxe.efi</string>
 		</array>
 		<key>Audio</key>
 		<dict>
