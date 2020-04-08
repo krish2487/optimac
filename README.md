@@ -48,7 +48,7 @@ Please also download [Hackintool](https://github.com/headkaze/Hackintool/release
 
 Reboot and you should be running macOS on your ~~OptiPlex~~ OptiMac!
 
-Have fun, and remember to **not** support Tonycrap and their closed source software that contains stolen goods. Not to mention them adding referrals when you post links to Amazon for example. Making money should not be part of the hackintosh community.
+Have fun, and remember to **not** support Tonycrap and their closed source software that contains stolen goods. Not to mention them adding referrals when you post links to Amazon for example. Making money should not be part of the hackintosh community. [Why?](https://github.com/khronokernel/Tonymcx86-stance)
 
 Tip: To make ProperTree into a little app, double click on the *buildapp.command* file inside the script folder. The resulting app will be put in the main ProperTree folder. 
 
