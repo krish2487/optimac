@@ -86,3 +86,5 @@ Don't overpay, there is a lot of supply. Don't use i3 models as the Intel Graphi
 $29 for a decent brand new 120-250GB entry level SSD. Hunt for bargains on Amazon and the likes.
 
 Don't forget to replace the thermal paste!
+
+You can find [me](https://www.reddit.com/user/ze_arp/) on Reddit.
