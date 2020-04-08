@@ -82,7 +82,7 @@ https://brew.sh
 
 https://rudix.org
 
-Average system cost around $99, for performance on par with a 2018 Mac Mini.
+Average system cost around $99, for performance (almost) on par with the i3-9100 based 2018 Mac Mini ;-)
 
 $70 Optiplex 7020/9020 with i5/i7 and 4-16GB RAM and a disk you shouldn't use due to wear.
 
